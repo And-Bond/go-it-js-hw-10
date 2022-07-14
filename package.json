@@ -15,13 +15,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@parcel/config-default": "^2.6.2",
     "handlebars": "^4.7.7",
     "parcel": "^2.5.0",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2"
   },
   "devDependencies": {
+    "@parcel/config-default": "^2.6.2",
     "@parcel/transformer-sass": "^2.5.0",
     "cssnano": "^5.1.12",
     "parcel-reporter-clean-dist": "^1.0.4",
