@@ -1,0 +1,27 @@
+{
+  "name": "module10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "parcel-bundler": "^1.12.5",
+    "parcel": "^2.5.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  }
+}
